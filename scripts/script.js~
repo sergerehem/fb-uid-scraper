@@ -126,7 +126,7 @@ function selectData(_html) {
             //lstResult[lstResult.length] = "uid-->" + uid + "\n-name->" + name + "\nsex-->" + sex + "\nemail-->" + email + "\nprofile_url-->" + profile_url + "\nlocation-->" + current_location_name + "\nstatus-->" + Status + "\nwork-->" + Work + "\nedu-->" + Education;
             lstResult[lstResult.length] = ["\n" + uid, name, sex,profile_url,current_location_name,Status,Work,Education,email];
         });
-        Log('Scraping  elements (' + lstResult.length + ')');
+        Log('Scraping  elements (' + lstResult.length + '/' + nodelist.length + ')');
     }
 }
 function showNext_callback(htmlnext) {
